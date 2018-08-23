@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="303.0" prefWidth="288.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="idadepessoa.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="103.0" layoutY="173.0" onAction="#cliqueBotao" text="clique aqui" />
+        <Label fx:id="lblResultado" layoutX="70.0" layoutY="136.0" minHeight="16" minWidth="69" text="aqui vai aparecer sua idade" />
+      <TextField fx:id="lblNascimento" layoutX="54.0" layoutY="74.0" />
+      <Label fx:id="lblId" layoutX="54.0" layoutY="45.0" text="diga o ano de nascimento" />
+    </children>
+</AnchorPane>

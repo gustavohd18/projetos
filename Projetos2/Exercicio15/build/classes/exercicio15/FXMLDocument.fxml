@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="267.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="exercicio15.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="64.0" layoutY="23.0" minHeight="16" minWidth="69" text="informe a quantidade de km" />
+        <Button fx:id="button" layoutX="95.0" layoutY="164.0" onAction="#clicouBotao" text="clique em mim" />
+      <TextField fx:id="txtKm" layoutX="65.0" layoutY="47.0" />
+      <Label layoutX="38.0" layoutY="91.0" text="diga a quantidade de dias de aluguel" />
+      <TextField fx:id="txtDias" layoutX="55.0" layoutY="121.0" />
+      <Label fx:id="txtResp" layoutX="144.0" layoutY="206.0" text="resp" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="tela1.Tela2Controller">
+   <children>
+      <Label layoutX="245.0" layoutY="22.0" text="Digite os nomes" />
+      <TextField fx:id="n1" layoutX="33.0" layoutY="74.0" prefHeight="26.0" prefWidth="115.0" />
+      <TextField fx:id="n2" layoutX="188.0" layoutY="74.0" prefHeight="26.0" prefWidth="115.0" />
+      <TextField fx:id="n5" layoutX="33.0" layoutY="143.0" prefHeight="26.0" prefWidth="115.0" />
+      <TextField fx:id="n3" layoutX="341.0" layoutY="74.0" prefHeight="26.0" prefWidth="104.0" />
+      <TextField fx:id="n6" layoutX="183.0" layoutY="149.0" prefHeight="26.0" prefWidth="124.0" />
+      <TextField fx:id="n4" layoutX="472.0" layoutY="74.0" prefHeight="26.0" prefWidth="104.0" />
+      <TextField fx:id="n9" layoutX="33.0" layoutY="206.0" prefHeight="26.0" prefWidth="115.0" />
+      <TextField fx:id="n7" layoutX="345.0" layoutY="149.0" prefHeight="26.0" prefWidth="96.0" />
+      <TextField fx:id="n10" layoutX="183.0" layoutY="206.0" prefHeight="26.0" prefWidth="124.0" />
+      <TextField fx:id="n8" layoutX="467.0" layoutY="149.0" prefHeight="26.0" prefWidth="115.0" />
+      <TextField fx:id="n11" layoutX="336.0" layoutY="206.0" prefHeight="26.0" prefWidth="104.0" />
+      <TextField fx:id="n12" layoutX="467.0" layoutY="206.0" prefHeight="26.0" prefWidth="104.0" />
+      <TextField fx:id="quantidades" layoutX="275.0" layoutY="274.0" prefHeight="26.0" prefWidth="65.0" />
+      <Label layoutX="172.0" layoutY="242.0" text="Diga o numero de semanas que quer gerar:" />
+      <Button fx:id="gera" layoutX="282.0" layoutY="360.0" mnemonicParsing="false" onAction="#clicou" text="Gerar" />
+      <Label fx:id="lblR" layoutX="292.0" layoutY="326.0" />
+   </children>
+</AnchorPane>

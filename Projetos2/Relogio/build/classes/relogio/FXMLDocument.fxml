@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="relogio.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnHora" layoutX="138.0" layoutY="100.0" mnemonicParsing="false" onAction="#clicouBotao" text="clique" />
+      <Label layoutX="106.0" layoutY="27.0" text="Data e hora atuais" />
+      <Label fx:id="lblHora" layoutX="112.0" layoutY="63.0" text="clique no botao " />
+   </children>
+</AnchorPane>

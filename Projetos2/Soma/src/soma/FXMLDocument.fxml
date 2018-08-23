@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="764.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="soma.FXMLDocumentController">
+   <children>
+      <TextField fx:id="txtN1" layoutX="125.0" layoutY="165.0" prefHeight="26.0" prefWidth="55.0" />
+      <TextField fx:id="txtN2" layoutX="330.0" layoutY="159.0" prefHeight="26.0" prefWidth="55.0" />
+      <Label layoutX="241.0" layoutY="162.0" prefHeight="0.0" prefWidth="33.0" text="+" />
+      <Button fx:id="btnSoma" layoutX="452.0" layoutY="156.0" mnemonicParsing="false" onAction="#c" text="=" />
+      <Label fx:id="lblSoma" layoutX="517.0" layoutY="143.0" prefHeight="81.0" prefWidth="107.0" text="0" />
+      <Label fx:id="lblS" layoutX="241.0" layoutY="232.0" text="Label" />
+      <AmbientLight color="CHARTREUSE" layoutX="179.0" layoutY="82.0" lightOn="true" />
+   </children>
+</AnchorPane>

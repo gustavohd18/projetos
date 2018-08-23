@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="274.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="exercicio18.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="119.0" layoutY="107.0" onAction="#clicou" text="clique aqui" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="119.0" layoutY="26.0" text="diga o angulo:" />
+      <TextField fx:id="txtAngulo" layoutX="80.0" layoutY="57.0" />
+      <Label fx:id="txtSeno" layoutX="129.0" layoutY="149.0" text="aqui seno" />
+      <Label fx:id="txtCos" layoutX="129.0" layoutY="177.0" text="aqui cosseno" />
+      <Label fx:id="txtTan" layoutX="129.0" layoutY="204.0" text="aqui tangente" />
+    </children>
+</AnchorPane>

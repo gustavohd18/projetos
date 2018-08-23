@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="tela1.Tela3Controller">
+   <children>
+      <Label layoutX="120.0" layoutY="6.0" prefHeight="16.0" prefWidth="437.0" text="Data Inicial$Data Final$email$Sindico" />
+      <Label fx:id="lblD" layoutX="77.0" layoutY="130.0" prefHeight="16.0" prefWidth="437.0" />
+      <Button fx:id="btnClique" layoutX="246.0" layoutY="349.0" mnemonicParsing="false" onAction="#clique" text="clique" />
+      <Label fx:id="n1" layoutX="215.0" layoutY="32.0" text="n1" />
+      <Label fx:id="n2" layoutX="206.0" layoutY="58.0" text="Label" />
+      <Label fx:id="n4" layoutX="206.0" layoutY="114.0" text="Label" />
+      <Label fx:id="n5" layoutX="206.0" layoutY="138.0" text="Label" />
+      <Label fx:id="n6" layoutX="206.0" layoutY="163.0" text="Label" />
+      <Label fx:id="n7" layoutX="206.0" layoutY="187.0" text="Label" />
+      <Label fx:id="n8" layoutX="206.0" layoutY="212.0" text="Label" />
+      <Label fx:id="n10" layoutX="206.0" layoutY="272.0" text="Label" />
+      <Label fx:id="n11" layoutX="206.0" layoutY="303.0" text="Label" />
+      <Label fx:id="n12" layoutX="206.0" layoutY="326.0" text="Label" />
+      <Label fx:id="n9" layoutX="206.0" layoutY="245.0" text="Label" />
+      <Label fx:id="n3" layoutX="206.0" layoutY="88.0" text="Label" />
+   </children>
+</AnchorPane>

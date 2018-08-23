@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diverso.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnSoma" layoutX="100.0" layoutY="87.0" onAction="#clicouBotao" text="=" />
+        <Label fx:id="te" layoutX="137.0" layoutY="57.0" minHeight="16" minWidth="23.0" prefHeight="16.0" prefWidth="23.0" text="+" />
+      
+      <TextField fx:id="txtN2" layoutX="149.0" layoutY="52.0" prefHeight="26.0" prefWidth="50.0" />
+      <Label fx:id="lblSoma" layoutX="221.0" layoutY="57.0" text="0" />
+      <TextField fx:id="txtN1" layoutX="32.0" layoutY="52.0" prefHeight="26.0" prefWidth="94.0" />
+    </children>
+</AnchorPane>
